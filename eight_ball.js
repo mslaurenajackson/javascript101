@@ -1,0 +1,62 @@
+<!Docutype htm>
+<html>
+    <head> 
+    <body>
+        <title>Welcome to the Magic 8 Ball</title>
+    </head>
+    <img src = "/desktop/8_ball.png" alt="picture of an 8 ball"></img>
+    <script> 
+let userName = 'Lauren';
+
+userName ? console.log(`Hello ${userName}!`) : console.log('Hello!');
+
+let userQuestion = prompt("Ask the magic 8 Ball a question:" );
+
+console.log(`${userName} has asked -${userQuestion}`);
+
+let randomNumber = Math.floor(Math.random() * 8);
+
+console.log(randomNumber);
+
+let eightBall = '';
+
+switch (randomNumber) {
+  case 0:
+    eightBall = 'It is certain';
+    break;
+  case 1:
+    eightBall = 'It is decidedly so';
+    break;
+  case 2:
+    eightBall = 'Reply hazy try again';
+    break;
+    case 3:
+     eightBall = 'Cannot predict now';
+    break;
+     case 4:
+    eightBall ='Do not count on it';
+    break;
+     case 5:
+    eightBall ='My sources say no';
+    break;
+     case 6:
+    eightBall ='Outlook not so good';
+    break;
+     case 7:
+    console.log('Signs point to yes');
+    break;
+}
+document.getElementById(...).textContent
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+//console.log(`The Magic 8 ball says ${eightBall}`);//
