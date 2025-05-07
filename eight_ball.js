@@ -1,12 +1,4 @@
-<!Docutype htm>
-<html>
-    <head> 
-    <body>
-        <title>Welcome to the Magic 8 Ball</title>
-    </head>
-    <img src = "/desktop/8_ball.png" alt="picture of an 8 ball"></img>
-    <script> 
-let userName = 'Lauren';
+let userName = promt('Tell the magic 8 ball your name:'  );
 
 userName ? console.log(`Hello ${userName}!`) : console.log('Hello!');
 
@@ -45,11 +37,11 @@ switch (randomNumber) {
      case 7:
     console.log('Signs point to yes');
     break;
+
 }
+
 document.getElementById(...).textContent
-</script>
-</body>
-</html>
+
 
 
 
