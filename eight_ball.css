@@ -30,8 +30,16 @@ script {
     align-items: flex-start;
     justify-content: center;
     text-align: center;
-    width: 300px;
-    border: 15px solid black;
-    padding: 50px;
-    margin: 20px;
+}
+#answer {
+  background-color: white;
+  color: black;
+  font-family: cursive;
+  width: 300px;
+  padding: 50px;
+  margin: 20px;
+  width: 300px;
+  border: 15px solid black;
+  padding: 50px;
+  margin: 20px;
 }
