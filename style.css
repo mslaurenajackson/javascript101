@@ -1,0 +1,37 @@
+body {
+    background-image: url("https://shop.a-morir.com/cdn/shop/products/IMG_3849.JPG?v=1529380431");
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: cursive;
+  width: 300px;
+  border: 15px solid white;
+  padding: 50px;
+  margin: 20px;
+}
+
+script {
+    background-color: white;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    border: 15px solid black;
+    padding: 50px;
+    margin: 20px;
+}

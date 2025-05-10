@@ -1,4 +1,4 @@
-let userName = promt('Tell the magic 8 ball your name:'  );
+let userName = prompt('Tell the magic 8 ball your name:'  );
 
 userName ? console.log(`Hello ${userName}!`) : console.log('Hello!');
 
@@ -40,7 +40,7 @@ switch (randomNumber) {
 
 }
 
-document.getElementById(...).textContent
+document.getElementById('answer').textContent = `The Magic 8 Ball says: ${eightBall}`;
 
 
 
@@ -51,4 +51,3 @@ document.getElementById(...).textContent
 
 
 
-//console.log(`The Magic 8 ball says ${eightBall}`);//
