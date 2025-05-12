@@ -1,6 +1,8 @@
 body {
     background-image: url("https://shop.a-morir.com/cdn/shop/products/IMG_3849.JPG?v=1529380431");
     background-position: center;
+    background-blend-mode:soft-light;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,7 +36,7 @@ script {
 #answer {
   background-color: white;
   color: black;
-  font-family: cursive;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   width: 300px;
   padding: 50px;
   margin: 20px;
@@ -46,11 +48,12 @@ script {
 li {
   background: white;
   color: black;
-  font-family: cursive;
+  list-style-type: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   padding: 50px;
   margin: 10px;
   width: 1000px;
   border: 5px solid black;
-  padding: 25px;
+  padding: 15px;
   margin: 20px;
 }

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+<form>
+    <fieldset>
+        <legend>Patient Information</legend>
+        
+        <label for="patient-id"> Patient ID No </label>
+        <input type="number" name="patient id no="Patient ID"/>
+
+        <label for="Goal"> Goal </label>
+        <input type="text" name="Goal" id="Goal" />
+
+        <label for="progress"> Current Progress </label>
+        <input type="number" name="Current Progress" id="Progress"/>
+    </fieldset>
+    <button type="submit" id="submit-button" value="submit"/>
+
+</form>
+</body>
+</html>
+
+
+

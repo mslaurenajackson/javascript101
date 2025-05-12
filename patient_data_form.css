@@ -1,0 +1,33 @@
+body {
+    background-image: url(https://cdn.shopify.com/s/files/1/0059/8835/2052/articles/pexels-photo-992734_1024x1024_f294ce36-a45d-47bc-a833-591591d20d42.webp?v=1725993909);
+    justify-content: center;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+form {
+    background-color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    color: black;
+    padding: 100px;
+    margin: 10px;
+    width: 1000px;
+    border: 5px solid white;
+    padding: 15px;
+}
+button {
+    color: black;
+    background-color: pink;
+    width: 75px;
+    padding: 10px;
+    margin: 20px;
+    border: darkmagenta;
+    border-radius: 20px; 
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

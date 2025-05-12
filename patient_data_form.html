@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="patient_data_form.css">  
+  <title>Patient Progress Report</title>
+</head>
+<body>
+<form>
+    <fieldset>
+        <legend>Patient Progress Information</legend>
+        
+        <label for="patient-id"> Patient ID No </label>
+        <input type="number" name="patient id no="Patient ID"/>
+
+        <label for="Goal"> Goal </label>
+        <input type="text" name="Goal" id="Goal"/>
+
+        <label for="progress"> Current Progress </label>
+        <input type="number" name="Current Progress" id="Progress"/>
+
+        <select name="drop dropdown progress options" id="select progress">
+            <option value="no progress">No progress made</option>
+            <option value="progressing">Progressing</option>
+            <option value="Mastered">Mastered Goal</option>
+        </select>
+        <button type="submit" id="submit-button" value="submit">Submit</button>
+    </fieldset>
+
+
+</form>
+</body>
+</html>
+
+
+
