@@ -4,18 +4,41 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="patient_data_form.css">  
+  <link src="patient_data_form.js">
+  <link src="pt_data_form_landing.html">
   <title>Patient Progress Report</title>
 </head>
 <body>
 <form>
-    <fieldset>
+        <fieldset>
         <legend>Patient Progress Information</legend>
         
         <label for="patient-id"> Patient ID No </label>
-        <input type="number" name="patient id no="Patient ID"/>
+        <input type="number" name="patient" id="Patient ID">
+        <label for="date"> Report Date </label>
+        <input type="date" name="report date" id="Report Date"><br>
+     <br><label for="ICD-10 Code"> ICD-10 Code </label>
+        <select name="ICD-10 Code" id="ICD-10 Code">
+            <option value="F80.0">F80.0</option>
+            <option value="F80.1">F80.1</option>
+            <option value="F80.2">F80.2</option>
+            <option value="F80.81">F80.81</option>
+            <option value="R63.30">R63.30</option>
+            <option value="F80.9">F80.9</F80></option>
+        </select>
+        <label for="CPT Code"> CPT Code </label>
+        <select name="CPT Code" id="CPT Code">
+            <option value="92521">92521</option>
+            <option value="92522">92522</option>
+            <option value="92523">92523</option>
+            <option value="92524">92524</option>
+            <option value="92526">92526</option>
+            <option value="92507">92507</option>
+            <option value="92610">92610</option>
+            </select><br>
 
-        <label for="Goal"> Goal </label>
-        <input type="text" name="Goal" id="Goal"/>
+    <br><label for="Goal"> Goal 1 </label>
+        <input type="text" name="Goal 1" id="Goal"/>
 
         <label for="progress"> Current Progress </label>
         <input type="number" name="Current Progress" id="Progress"/>
@@ -24,7 +47,34 @@
             <option value="no progress">No progress made</option>
             <option value="progressing">Progressing</option>
             <option value="Mastered">Mastered Goal</option>
-        </select>
+        </select> <br>
+    <br><label for="Goal 2" aria-placeholder="optional"> Goal 2 </label>
+        <input type="text" name="Goal 2" id="Goal"/>
+
+        <label for="progress"> Current Progress </label>
+        <input type="number" name="Current Progress" id="Progress"/>
+
+        <select name="drop dropdown progress options" id="select progress">
+            <option value="no progress">No progress made</option>
+            <option value="progressing">Progressing</option>
+            <option value="Mastered">Mastered Goal</option>
+        </select><br>
+    <br><label for="Goal 3" aria-placeholder="optional"> Goal 3 </label>
+        <input type="text" name="Goal 3" id="Goal"/>
+        <label for="progress"> Current Progress </label>
+        <input type="number" name="Current Progress" id="Progress"/>                
+        
+        <select name="drop dropdown progress options" id="select progress">
+            <option value="no progress">No progress made</option>
+            <option value="progressing">Progressing</option>
+            <option value="Mastered">Mastered Goal</option>
+        </select><br>
+        <label for="therapist"> Therapist Name </label>
+        <input type="text" name="therapist" id="Therapist Name">
+        <upload>
+        <label for="upload"> Upload Your Professional Signature </label>
+        <input type="file" name="upload" id="upload">
+
         <button type="submit" id="submit-button" value="submit">Submit</button>
     </fieldset>
 
