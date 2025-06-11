@@ -1,0 +1,19 @@
+body  {
+    font-family: Arial, sans-serif;
+    background-image: url('/omdb-project/assets/blackPanther.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 20px;
+    color: white;
+
+    /* Added flex model and text-align to center content inside of body */
+    /* Feel free to experiment with the styling */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
